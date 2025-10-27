@@ -1,3 +1,23 @@
-theme: jekyll-theme-minimal
-title: Javier Tafur's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Javier Tafur
+description: Personal blog and portfolio
+url: https://javiertafurpino.github.io
+author: Javier Tafur
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Social links
+github_username: javiertafurpino
+linkedin_username: javiertafur
+# Add other social media usernames as needed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
